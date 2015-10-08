@@ -1,0 +1,38 @@
+{
+  "name": "unijobs",
+  "version": "0.0.1",
+  "description": "platform to find jobs for students and students employees for business",
+  "main": "index.js",
+  "scripts": {
+    "serving": "node server.js",
+    "build": "SET TARGET=build&& webpack",
+    "start": "SET TARGET=dev&& webpack-dev-server --devtool eval --progress --colors --hot --inline --history-api-fallback"
+  },
+  "author": "Abraham Hurtado",
+  "license": "MIT",
+  "dependencies": {
+    "history": "1.9.1",
+    "react": "0.14.0",
+    "react-dom": "0.14.0",
+    "react-router": "1.0.0-rc2"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.24",
+    "babel-eslint": "4.1.2",
+    "babel-loader": "5.3.2",
+    "babel-plugin-react-transform": "1.0.5",
+    "eslint": "1.4.3",
+    "eslint-plugin-no-class": "0.1.0",
+    "eslint-plugin-react": "3.4.0",
+    "express": "4.13.3",
+    "html-webpack-plugin": "1.6.1",
+    "react-transform-catch-errors": "0.2.0",
+    "react-transform-webpack-hmr": "0.1.5",
+    "redbox-react": "1.0.5",
+    "webpack": "1.12.2",
+    "webpack-dev-middleware": "1.2.0",
+    "webpack-dev-server": "1.11.0",
+    "webpack-hot-middleware": "2.1.0",
+    "webpack-merge": "0.2.0"
+  }
+}
