@@ -11,10 +11,10 @@
   "author": "Abraham Hurtado",
   "license": "MIT",
   "dependencies": {
-    "history": "1.9.1",
+    "history": "1.12.3",
     "react": "0.14.0",
     "react-dom": "0.14.0",
-    "react-router": "1.0.0-rc2"
+    "react-router": "1.0.0-rc3"
   },
   "devDependencies": {
     "babel-core": "5.8.24",
@@ -27,6 +27,7 @@
     "express": "4.13.3",
     "html-webpack-plugin": "1.6.1",
     "react-transform-catch-errors": "0.2.0",
+    "react-transform-hmr": "1.0.1",
     "react-transform-webpack-hmr": "0.1.5",
     "redbox-react": "1.0.5",
     "webpack": "1.12.2",
